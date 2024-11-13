@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: vimavura/node-hello-world-2024
+      IMAGE_NAME: vimavura/node-hello-world
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
